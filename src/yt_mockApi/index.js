@@ -108,19 +108,19 @@ app.get( '/api/message', ( req, res ) =>
             title: "如何开发票?",
             id: '1',
             type: '1',
-            url:'http://172.20.10.2:8088/h5/Help?id=1'
+            url:'http://18.208.174.187:8088/h5/Help?id=1'
           },
           {
             title: "如何注册云途油卡APP账号?",
             id: '2',
             type: '1',
-            url:'http://172.20.10.2:8088/h5/Help?id=2'
+            url:'http://18.208.174.187:8088/h5/Help?id=2'
           },
           {
             title: "云途APP登陆密码和支付密码有何不同？",
             id: '3',
             type: '1',
-            url:'http://172.20.10.2:8088/h5/Help?id=3'
+            url:'http://18.208.174.187:8088/h5/Help?id=3'
           },
         ],
         noticeInfo:[
@@ -128,19 +128,19 @@ app.get( '/api/message', ( req, res ) =>
             title: '公告X',
             id: '1',
             type: '2',
-            url:'http://172.20.10.2:8088/h5/Notice?id=1'
+            url:'http://18.208.174.187:8088/h5/Notice?id=1'
           },
           {
             title: "公告3?",
             id: '2',
             type: '1',
-            url:'http://172.20.10.2:8088/h5/Notice?id=2'
+            url:'http://18.208.174.187:8088/h5/Notice?id=2'
           },
           {
             title: "公告X4",
             id: '3',
             type: '1',
-            url:'http://172.20.10.2:8088/h5/Notice?id=3'
+            url:'http://18.208.174.187:8088/h5/Notice?id=3'
           },
         ]
       },
@@ -157,7 +157,7 @@ app.get( '/api/detail', ( req, res ) =>
       data: {
         title: '',
         content: '进入我的-发票申请界面，选中加油记录，进入发票申请界面，输入企业或个人单位信息、</br>, 总金额等，点击【确认开票】，开票成功， \n 然后系统根本输入的收件人信息，进行发票邮寄。',
-        imgs: ['https://img1.imgtp.com/2023/11/01/InuQn6Tx.png', 'https://img1.imgtp.com/2023/11/01/InuQn6Tx.png', 'https://img1.imgtp.com/2023/11/01/InuQn6Tx.png'],
+        imgs: ['https://www.freeimg.cn/i/2024/01/03/659504ea98705.png','https://www.freeimg.cn/i/2024/01/03/659504ea98705.png', 'https://www.freeimg.cn/i/2024/01/03/659504f886688.png'],
         // imgType: 'one',
         imgType: 'two',
         video:'www/xxxxx.xxx'
